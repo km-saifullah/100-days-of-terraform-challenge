@@ -1,0 +1,7 @@
+Company Information
+
+Company Name: Example Cloud Solutions
+Department: Cloud Infrastructure
+Project: AWS and Terraform Learning Journey
+
+This is a sample document uploaded to Amazon S3 using Terraform.

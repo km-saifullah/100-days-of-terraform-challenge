@@ -1,0 +1,11 @@
+{
+  "application": "aws-terraform-learning",
+  "environment": "development",
+  "version": "1.0.0",
+  "storage": {
+    "provider": "aws",
+    "service": "s3",
+    "encryption": true,
+    "public_access": false
+  }
+}

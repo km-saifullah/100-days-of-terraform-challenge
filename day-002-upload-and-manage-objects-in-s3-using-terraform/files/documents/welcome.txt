@@ -1,0 +1,6 @@
+Welcome to Day 02 of the 100 Days of AWS and Terraform Challenge!
+
+This file is uploaded to Amazon S3 using Terraform.
+
+The purpose of this project is to learn how to automate
+file uploads and manage S3 objects using Infrastructure as Code.
