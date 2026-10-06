@@ -1,0 +1,37 @@
+Day 05 - Launch an EC2 Instance in a Public Subnet Using Terraform
+
+Problem
+
+A basic AWS VPC and public subnet are available as the networking foundation.
+The next requirement is to deploy an application server inside the public subnet.
+
+The server must be accessible through SSH by the administrator and through
+HTTP for a web application.
+
+The infrastructure must be created using Terraform.
+
+Requirements:
+
+1. Create a VPC with CIDR 10.0.0.0/16
+2. Create a public subnet with CIDR 10.0.1.0/24
+3. Create an Internet Gateway
+4. Create a public route table
+5. Create a default route through the Internet Gateway
+6. Associate the route table with the public subnet
+7. Create a Security Group
+8. Allow SSH only from the administrator's public IP
+9. Allow HTTP traffic from the internet
+10. Launch an Amazon Linux 2023 EC2 instance
+11. Assign a public IPv4 address
+12. Configure the EC2 instance using user data
+13. Install and start Nginx automatically
+14. Create a simple web page
+15. Output the EC2 public IP, public DNS, and website URL
+16. Verify the server through a browser and SSH
+17. Destroy the infrastructure after testing
+
+Learning objective:
+
+Understand how EC2, VPC, subnet, route table, Internet Gateway, and
+Security Group work together to provide controlled internet access to
+an application server.
